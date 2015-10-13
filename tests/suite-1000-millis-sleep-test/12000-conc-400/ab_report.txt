@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 10.0.0.14 (be patient)
+
+
+Server Software:        WEBrick/1.3.1
+Server Hostname:        10.0.0.14
+Server Port:            80
+
+Document Path:          /sleep/1000
+Document Length:        27 bytes
+
+Concurrency Level:      400
+Time taken for tests:   210.234 seconds
+Complete requests:      12000
+Failed requests:        88
+   (Connect: 0, Receive: 0, Length: 88, Exceptions: 0)
+Non-2xx responses:      88
+Keep-Alive requests:    12000
+Total transferred:      4339160 bytes
+HTML transferred:       327520 bytes
+Requests per second:    57.08 [#/sec] (mean)
+Time per request:       7007.792 [ms] (mean)
+Time per request:       17.519 [ms] (mean, across all concurrent requests)
+Transfer rate:          20.16 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.5      0      12
+Processing:  2038 5739 7807.1   3750  123372
+Waiting:     2038 5739 7807.1   3750  123372
+Total:       2044 5739 7807.3   3750  123372
+
+Percentage of the requests served within a certain time (ms)
+  50%   3750
+  66%   4772
+  75%   6014
+  80%   6773
+  90%   9476
+  95%  13483
+  98%  18492
+  99%  34516
+ 100%  123372 (longest request)

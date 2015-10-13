@@ -1,0 +1,12 @@
+label	keepalive	total_reqs	failed_reqs	conc	mean	p95	p98	rqs
+suite-root-url-test	0							
+suite-root-url-test	0							
+suite-root-url-test	0							
+suite-root-url-test	1	6000	0	200	610.413	882	1297	327.65
+suite-root-url-test	1	9000	0	300	1846.498	3748	4258	162.47
+suite-root-url-test	1	12000	0	400	3011.103	5988	7493	132.84
+suite-root-url-test	1	15000	0	500	3884.647	8743	10763	128.71
+suite-root-url-test	1	30000	4559	1000	11155.329	24497	36260	89.64
+suite-root-url-test	1	45000	18094	1500	20799.367	39717	50985	72.12
+suite-root-url-test	1	60000	35697	2000	30817.746	50934	62626	64.90
+suite-root-url-test	1	75000	51394	2500	40356.340	63790	73722	61.95
